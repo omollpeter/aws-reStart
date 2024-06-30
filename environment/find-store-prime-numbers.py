@@ -48,4 +48,4 @@ def find_and_store_primes(start, end, filename):
     write_prime_numbers_to_file(prime_numbers_list, filename, start, end)
 
 if __name__ == "__main__":
-    find_and_store_primes("250fft", "1000llt", "results.txt")
+    find_and_store_primes(1, 250, "results.txt")
